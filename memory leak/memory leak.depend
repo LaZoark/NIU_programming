@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553784886 source:d:\c++\memory leak\main.cpp
+	<iostream>
+	<windows.h>
+

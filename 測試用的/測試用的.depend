@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1553832499 source:d:\c++\測試用的\main.cpp
+	<windows.h>
+	<iostream>
+
+1181724766 source:d:\c++\c++程式設計\ch02\ex02_01.cpp
+	<iostream>
+	<cstdlib>
+

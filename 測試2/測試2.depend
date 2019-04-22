@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1555322121 source:d:\c++\ด๚ธี2\main.cpp
+	<iostream>
+	<iomanip>
+	<ctime>
+	<cstdlib>
+	<string>
+	<vector>
+

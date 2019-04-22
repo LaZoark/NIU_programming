@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1552394353 source:d:\b0742006\c++\msgbox排程關機\main.cpp
+	<iostream>
+	<windows.h>
+
+1552394354 source:e:\msgbox排程關機\main.cpp
+	<iostream>
+	<windows.h>
+
+1554722225 source:d:\c++\msgbox排程關機\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	<cstring>
+	<sstream>
+
+1554722097 source:d:\c++\msgbox排程關機\icon.rc
+

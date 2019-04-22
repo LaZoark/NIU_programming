@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553781629 source:d:\c++\簡易影像產生器\main.cpp
+	<iostream>
+	<iomanip>
+

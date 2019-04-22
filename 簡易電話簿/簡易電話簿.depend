@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1554710299 source:d:\c++\簡易電話簿\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<windows.h>
+	<conio.h>
+	<iomanip>
+	<vector>
+
+1554665781 source:d:\c++\簡易電話簿\icon.rc
+

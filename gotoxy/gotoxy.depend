@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1551080245 source:d:\c++\gotoxy\main.cpp
+	<iostream>
+	<windows.h>
+	<conio.h>
+

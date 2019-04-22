@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1555638927 source:d:\c++\array boom\main.cpp
+	<iostream>
+	<iomanip>
+	<ctime>
+	<windows.h>
+

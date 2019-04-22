@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1537433512 source:d:\c++\hw2\main.cpp
+	<iostream>
+	<cstdlib>
+
