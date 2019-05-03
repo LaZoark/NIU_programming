@@ -9,11 +9,12 @@ using namespace std;
 int main()
 {
     int color;
-    for(color=0; color<=127; color++)
+    for(color=0; color<=256; color++)
     {
         char a[64]="³o¬O¹wÄý-################################";
         SetColor(color);
         cout << a << "\t\t" << color << endl;
-        Sleep(70);
+        Sleep(10);
     }
+    SetColor(0xf);
 }
