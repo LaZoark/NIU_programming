@@ -4,29 +4,29 @@
 using namespace std;
 class CTime
 {
-   private:
-      int hour,min;
-      double sec;
+private:
+    int hour,min;
+    double sec;
 
-   public:
-      CTime(int h,int m,double s):hour(h),min(m),sec(s){}
-
-      void show_time()
-      {
-         cout << hour << "hr " << min << "min " << sec << "sec" << endl;
-      }
+public:
+    CTime(int h,int m,double s):hour(h),min(m),sec(s) {}
+    CTime t3();
+    void show_time()
+    {
+        cout << hour << "hr " << min << "min " << sec << "sec" << endl;
+    }
 };
 
 int main(void)
 {
-   CTime t1(4,23,56.3);
-   CTime t2(5,45,30.3);
+    CTime t1(4,23,56.3);
+    CTime t2(5,45,30.3);
+    CTime t3();
+    t1.show_time();
+    t2.show_time();
 
-   t1.show_time();
-   t2.show_time();
-
-   system("pause");
-   return 0;
+    system("pause");
+    return 0;
 }
 
 /* output-------------------------------

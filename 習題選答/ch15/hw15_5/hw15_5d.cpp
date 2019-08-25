@@ -19,7 +19,7 @@ class CTime
       {
          return hour*3600+min*60+sec;
       }
-      int operator>(CTime &t)
+      /*default int*/ operator>(CTime &t)
       {
          return (this->to_sec() > t.to_sec());
       }
@@ -29,14 +29,19 @@ class CTime
       }
 };
 
+class te : virtual public CTime
+{
+
+};
+
 int main(void)
 {
    CTime t1(4,23,56.3);
    CTime t2(5,45,30.3);
-   
+
    t1.show_time();
    t2.show_time();
-   
+
    if(t1>t2)
       cout << "t1 is larger than t2" << endl;
    else
@@ -46,7 +51,7 @@ int main(void)
       cout << "t1 is smaller than t2" << endl;
    else
       cout << "t2 is smaller than t1" << endl;
-   
+
    system("pause");
    return 0;
 }

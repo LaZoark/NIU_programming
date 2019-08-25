@@ -1,5 +1,6 @@
 #ifndef COLOR_H_INCLUDED
 #define COLOR_H_INCLUDED
+#include <windows.h>
 void SetColor(int color)
 {
     HANDLE hConsole=GetStdHandle(STD_OUTPUT_HANDLE);
@@ -22,7 +23,7 @@ void SetColor(int color)
 #define WHITE 15
 
 #define RED_WHITE 79
-#define WHITE_BLUE 225
+#define WHITE_BLUE 159
 
 /**
 0 = Black	8 = Gray

@@ -1,8 +1,8 @@
 #include <iostream>
 #include <windows.h>
+#include <cmath>
 #include <iomanip>
 #include "color.h"
-
 using namespace std;
 class Integral
 {
@@ -21,7 +21,7 @@ public:
         u==0&&l==0?cout<<'a'<<endl:cout<<l<<endl;
         SetColor(WHITE);
         if(u==0&&l==0&&integrand=="f(x)"&&dx=="x")
-            cout<<"\tIntegral from a to b of f(x) dx."<<endl;///這個有點問題!!
+            cout<<"\tIntegral from a to b of f(x) dx."<<endl;
         else
             cout<<"\tIntegral from "<<l<<" to "<<u<<" of "<<integrand<<" d"<<dx<<endl;
     }
@@ -135,7 +135,6 @@ int main()
     Integral func(0,0);     ///Integral(double u,double l,string integrand,string dx)
     int type=0;
     short n;
-    double l,u;
     string f,v; //integrand & variable => f(...) & d"_"
     while(type!=16)
     {

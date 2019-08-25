@@ -3,12 +3,14 @@
 #include <conio.h>
 #include <ostream>
 #define SIZE 16
+#include <string>
+#include <algorithm>
 using namespace std;
 
 int main()
 {
-    int a=5,b=20;
-    cout<<"a="<<a<<" b="<<b<<endl;
-    a=a+b-(b=a);
-    cout<<"a="<<a<<" b="<<b<<endl;
+    string str="afjied";
+    cout<<str<<endl;
+    sort(str.begin(),str.end());
+    cout<<str<<endl;
 }

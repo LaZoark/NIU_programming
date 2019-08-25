@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1554710299 source:d:\c++\簡易電話簿\main.cpp
+1558338250 source:d:\c++\簡易電話簿\main.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -8,5 +8,5 @@
 	<iomanip>
 	<vector>
 
-1554665781 source:d:\c++\簡易電話簿\icon.rc
+1554721850 source:d:\c++\簡易電話簿\icon.rc
 

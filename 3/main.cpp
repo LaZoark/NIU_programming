@@ -2,7 +2,7 @@
 #define N 10
 #define M 10
 using namespace std;
-struct mm
+/*struct mm
 {
     char nn[];
     int zz;
@@ -15,9 +15,17 @@ void f(mm w[])
             cin>>w[s].nn[se];
         cin>>w[s].zz;
     }
+}*/
+string f(string str)
+{
+    for(int i=0; i<str.size(); i++)
+        if(str[i]<='z'&&str[i]>='a')
+            str[i]=str[i]-32;
+    return str;
 }
 int main()
 {
-    //mm w[];
-    f(w);
+    string str="abcDeFg123";
+    cout<<str<<endl;
+    cout<<f(str)<<endl;
 }

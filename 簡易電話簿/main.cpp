@@ -5,7 +5,7 @@
 #include <conio.h>
 #include <iomanip>
 #include <vector>
-#define FILE_NAME "聯絡人.txt"
+#define FILE_NAME "聯絡人.txt"  //檔案名稱
 using namespace std;
                                 ///!*問題:即便我不再使用push_back ,capacity 依然會翻倍增加...
 fstream contacts;
@@ -46,7 +46,7 @@ void InitData()
 {
     vector<string>().swap(name);
     vector<string>().swap(mobile);      ///swap強制釋放記憶體
-    contacts.open("聯絡人.txt",ios::trunc);
+    contacts.open(FILE_NAME,ios::trunc);
     contacts.close();
 }
 void Insert()
@@ -71,7 +71,7 @@ void Remove()
         cin>>k;
         if(!name[k-1].empty()&&k<=name.size())
         {
-            cout<<"(DeBug)capacity="<<name.capacity()<<endl;
+            //cout<<"(DeBug)capacity="<<name.capacity()<<endl;
             name.erase(name.begin()+k-1);
             mobile.erase(mobile.begin()+k-1);
 

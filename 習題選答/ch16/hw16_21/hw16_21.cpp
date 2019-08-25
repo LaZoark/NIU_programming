@@ -10,6 +10,7 @@ class Caaa    // 定義Caaa類別，在此為父類別
      {
         cout << "printed from Caaa class" << endl;
      }
+     _(){return 4;}
 };
 
 class Cbbb : public Caaa  // 定義Cbbb類別，繼承自Caaa類別
@@ -25,7 +26,7 @@ class Cbbb : public Caaa  // 定義Cbbb類別，繼承自Caaa類別
          cout << "num1= " << num1;
          cout << ", num2= " << num2 << endl;
       }
-      void display()
+      void  display()
       {
           cout << "printed from Cbbb class" << endl;
        }
@@ -37,7 +38,8 @@ int main(void)
    Cbbb obj2;
    obj1.display();
    obj2.display();
-
+    cout<<obj1._();
+    cout<<obj1._();
    system("pause");
    return 0;
 }
